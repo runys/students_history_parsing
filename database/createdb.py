@@ -5,6 +5,7 @@ from sets import Set
 
 # Todos os códigos de menção possíveis
 mencoes_legenda = Set(['SR','II','MI','MM','MS','SS','TR','CC','AP','DP','TJ'])
+creditos_legenda = Set(['000','002','003','004','005','006','008','014','015','020'])
 
 # Métodos auxiliares
 ### Confere se é ou não um código de disciplina
@@ -14,6 +15,10 @@ def isCodigoDeDisciplina (codigo):
 ### Confere se é ou não uma menção
 def isMencao (mencao):
     return mencao in mencoes_legenda
+
+### Confere se é um número de créditos
+def isCredito (credito):
+    return credito in creditos_legenda
 
 ####### Processamento dos Arquivos #######
 # Array para armazenar todos os alunos
@@ -57,6 +62,7 @@ for i in range(257):
     periodos = []
     codigos_disciplinas = []
     mencoes = []
+    creditos = []
         
     # Códigos de Disciplina
     for line in content:
@@ -73,6 +79,11 @@ for i in range(257):
         if isMencao(line[:-1]):
             mencoes.append(line[:-1])
 
+    # Creditos
+    for line in content:
+        if isCredito(line[:-1]):
+            creditos.append(line[:-1])        
+            
     # Períodos
     for line in content:
         if 'Período:' in line:
@@ -112,6 +123,8 @@ for i in range(257):
                     cont += 1
 
     periodos[periodo_atual-1]['num_disciplinas'] = cont
+#    for d, m, c in zip(codigos_disciplinas, mencoes, creditos):
+#        print '{} {} {}'.format(d,m,c)
     
     # Montar Histórico
     historico = []
@@ -127,6 +140,7 @@ for i in range(257):
             disciplina = {}
             disciplina['codigo'] = codigos_disciplinas.pop(0)
             disciplina['mencao'] = mencoes.pop(0)
+            disciplina['credito'] = creditos.pop(0)
             semestre['disciplinas'].append(disciplina)
         
         historico.append(semestre)
@@ -139,6 +153,7 @@ for i in range(257):
 print 'Dados lidos com sucesso!'
 print 'Lendo arquivos de da pasta "./data_2" '
 # Passar por todos os arquivos da SEGUNDA leva de dados    
+
 for i in range(131):
     # Abre o arquivo
     filename = "./data/data_2/" + str(i+1) + ".data"
@@ -178,6 +193,7 @@ for i in range(131):
     periodos = []
     codigos_disciplinas = []
     mencoes = []
+    creditos = []
         
     # Códigos de Disciplina
     for line in content:
@@ -193,7 +209,11 @@ for i in range(131):
     for line in content:
         if isMencao(line[:-1]):
             mencoes.append(line[:-1])
-
+    
+    # Creditos
+    for line in content:
+        if isCredito(line[:-1]):
+            creditos.append(line[:-1]) 
     # Períodos
     for line in content:
         if 'Período:' in line:
@@ -248,6 +268,7 @@ for i in range(131):
             disciplina = {}
             disciplina['codigo'] = codigos_disciplinas.pop(0)
             disciplina['mencao'] = mencoes.pop(0)
+            disciplina['credito'] = creditos.pop(0)
             semestre['disciplinas'].append(disciplina)
         
         historico.append(semestre)
@@ -260,7 +281,7 @@ print 'Dados lidos com sucesso!'
 
 # Cria o JSON com os alunos
 print 'Criando JSON com historicos dos alunos'
-historicos = open('historicos.json','w')
+historicos = open('./json/historicos.json','w')
 historicos.write(json.dumps(alunos, sort_keys=False, indent=4, separators=(',',': ')))
 
 

@@ -10,7 +10,7 @@ mencoes = Set(['SR','II','MI','MM','MS','SS','TR','CC','AP','DP','TJ'])
 
 print 'Validando DB de historicos'
 
-file_path = "historicos.json"
+file_path = "./json/historicos.json"
 
 with open(file_path) as data_file:
     historicos = json.load(data_file)
@@ -40,6 +40,8 @@ for aluno in historicos:
                 print '--' + str(aluno['id']) + ': Disciplina ' + disciplina['codigo'] + ' invalido'
             if disciplina['mencao'] == '':
                 print '--' + str(aluno['id']) + ': Disciplina ' + disciplina['codigo'] + ' sem menção'
+            if disciplina['credito'] == '':
+                print '--' + str(aluno['id']) + ': Disciplina ' + disciplina['codigo'] + ' sem credito'
                 
 print '- Validando menções'
 # Validar menções
