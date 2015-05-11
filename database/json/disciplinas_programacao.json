@@ -1,0 +1,152 @@
+[
+    {
+        "status": "OBR",
+        "codigo": "113913",
+        "prerequisitos": "\u2014",
+        "nome": "Introdu\u00e7\u00e3o a Ci\u00eancias da Computa\u00e7\u00e3o"
+    },
+    {
+        "status": "OBR",
+        "codigo": "116301",
+        "prerequisitos": "\u2014",
+        "nome": "Computa\u00e7\u00e3o B\u00e1sica"
+    },
+    {
+        "status": "OBR",
+        "codigo": "195405",
+        "prerequisitos": "\u2014",
+        "nome": "Estruturas Matem\u00e1ticas para Computa\u00e7\u00e3o"
+    },
+    {
+        "status": "OPT",
+        "codigo": "206199",
+        "prerequisitos": "\u2014",
+        "nome": "Intelig\u00eancia Artificial"
+    },
+    {
+        "status": "OPT",
+        "codigo": "110141",
+        "prerequisitos": "\u2014",
+        "nome": "T\u00f3picos Especiais em Programa\u00e7\u00e3o"
+    },
+    {
+        "status": "OBR",
+        "codigo": "195413",
+        "prerequisitos": "113042",
+        "nome": "M\u00e9todos Num\u00e9ricos para Engenharia"
+    },
+    {
+        "status": "OBR",
+        "codigo": "206601",
+        "prerequisitos": "203882",
+        "nome": "Desenvolvimento Avan\u00e7ado de Software"
+    },
+    {
+        "status": "OPT",
+        "codigo": "101095",
+        "prerequisitos": "193704",
+        "nome": "Fundamentos de Compiladores"
+    },
+    {
+        "status": "OPT",
+        "codigo": "208507",
+        "prerequisitos": "193704",
+        "nome": "Introdu\u00e7\u00e3o a Computa\u00e7\u00e3o Gr\u00e1fica"
+    },
+    {
+        "status": "OPT",
+        "codigo": "103209",
+        "prerequisitos": "193704",
+        "nome": "Estrutura de Dados e Algoritmos 2"
+    },
+    {
+        "status": "OPT",
+        "codigo": "201286",
+        "prerequisitos": "193674",
+        "nome": "Fundamentos de Sistemas Operacionias"
+    },
+    {
+        "status": "OPT",
+        "codigo": "206181",
+        "prerequisitos": "201286",
+        "nome": "Sistemas Embarcados"
+    },
+    {
+        "status": "OBR",
+        "codigo": "195341",
+        "prerequisitos": "113913",
+        "nome": "Orienta\u00e7\u00e3o a Objetos"
+    },
+    {
+        "status": "OBR",
+        "codigo": "193704",
+        "prerequisitos": "113913",
+        "nome": "Estrutura de Dados e Algoritmos"
+    },
+    {
+        "status": "OPT",
+        "codigo": "203904",
+        "prerequisitos": "113913 e 195341 e 193640",
+        "nome": "Paradigmas de Programa\u00e7\u00e3o"
+    },
+    {
+        "status": "OPT",
+        "codigo": "107409",
+        "prerequisitos": "113913 ou 116301",
+        "nome": "T\u00f3picos Especiais em Jogos Digitais"
+    },
+    {
+        "status": "OPT",
+        "codigo": "107417",
+        "prerequisitos": "113913 ou 116301",
+        "nome": "T\u00f3picos Especiais em Sistemas Cr\u00edticos"
+    },
+    {
+        "status": "OBR",
+        "codigo": "206598",
+        "prerequisitos": "193640",
+        "nome": "Manuten\u00e7\u00e3o e Evolu\u00e7\u00e3o de Software"
+    },
+    {
+        "status": "OBR",
+        "codigo": "193640",
+        "prerequisitos": "195341",
+        "nome": "M\u00e9todos de Desenvolvimento de Software"
+    },
+    {
+        "status": "OBR",
+        "codigo": "201294",
+        "prerequisitos": "195341",
+        "nome": "T\u00e9cnicas de Programa\u00e7\u00e3o"
+    },
+    {
+        "status": "OPT",
+        "codigo": "208493",
+        "prerequisitos": "195341 e 193704",
+        "nome": "Introdu\u00e7\u00e3o aos Jogos Eletr\u00f4nicos"
+    },
+    {
+        "status": "OPT",
+        "codigo": "103195",
+        "prerequisitos": "195341 e 193704",
+        "nome": "Programa\u00e7\u00e3o Para Competi\u00e7\u00f5es"
+    },
+    {
+        "status": "OPT",
+        "codigo": "117552",
+        "prerequisitos": "195341 e 193704 e 203882",
+        "nome": "Introdu\u00e7\u00e3o ao Desenvolvimento de Jogos"
+    },
+    {
+        "status": "OBR",
+        "codigo": "203882",
+        "prerequisitos": "201308",
+        "nome": "Desenho de Software"
+    },
+    {
+        "status": "OPT",
+        "codigo": "208701",
+        "prerequisitos": "193631 e 20129",
+        "nome": "Programa\u00e7\u00e3o Web"
+    }
+]

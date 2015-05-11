@@ -23,7 +23,7 @@ alunos = []
 print 'Lendo arquivos de da pasta "./data_1" '
 for i in range(257):
     # Abre o arquivo
-    filename = "./data_1/" + str(i+1) + ".data"
+    filename = "./data/data_1/" + str(i+1) + ".data"
     file = open(filename, 'r')
     
     # Separa cada linha do arquivo em um array de strings
@@ -141,7 +141,7 @@ print 'Lendo arquivos de da pasta "./data_2" '
 # Passar por todos os arquivos da SEGUNDA leva de dados    
 for i in range(131):
     # Abre o arquivo
-    filename = "./data_2/" + str(i+1) + ".data"
+    filename = "./data/data_2/" + str(i+1) + ".data"
     file = open(filename, 'r')
     
     # Separa cada linha do arquivo em um array de strings
