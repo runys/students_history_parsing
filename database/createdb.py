@@ -2,37 +2,42 @@
 
 import json
 
+# Métodos auxiliares
+### Confere se é ou não um código de disciplina
 def isCodigoDeDisciplina (codigo):
     if codigo.isdigit() and len(codigo) == 6:
         return True
     return False
 
+### Confere se é ou não uma menção
 def isMencao (mencao):
-    if mencao.isalpha() and len(mencao) == 2:
+    if mencao.isalpha() and len(mencao) == 2 and mencao != 'FT':
         return True
     return False
 
-# Alunos que irão compor a base de dados
+####### Processamento dos Arquivos #######
+
+# Array para armazenar todos os alunos
 alunos = []
 
+# Passar por todos os arquivos
 for i in range(257):
     # Abre o arquivo
-    filename = "./raw_data/" + str(i+1) + ".data"
-    
+    filename = "./data_1/" + str(i+1) + ".data"
     file = open(filename, 'r')
+    
     # Separa cada linha do arquivo em um array de strings
     content = file.readlines()
     
     # Cria um aluno
     aluno = {}
     
-
     # Ingresso na UnB
     for line in content:
         if 'Ingresso na UnB:' in line:
             line = line.replace('Ingresso na UnB: ', '')
             aluno['ano_ingresso'], aluno['periodo_ingresso'] = line.split('/')
-            aluno['periodo_ingresso'] = aluno['periodo_ingresso'][:-1] #limpa um /n indesejado
+            aluno['periodo_ingresso'] = aluno['periodo_ingresso'][:-1]
             break
     
     # StudentID
@@ -42,7 +47,7 @@ for i in range(257):
             aluno['id'] = line[:-1]
             break;
     
-    # Nascimento
+    # Data de Nascimento
     for line in content:
         if 'Nascimento:' in line:
             line = line.replace('Nascimento: ', '')
@@ -50,29 +55,29 @@ for i in range(257):
     
     # Semestres
     periodos = []
-    codigos_disciplinas = [];
+    codigos_disciplinas = []
     mencoes = []
         
-    # Pega todos os códigos de disciplina
+    # Códigos de Disciplina
     for line in content:
-        if isCodigoDeDisciplina(line[:-1]):
-            codigos_disciplinas.append(line[:-1])
+        words = line.split(' ')
+        if len(words) > 1:
+            if isCodigoDeDisciplina(words[1][:-1]):
+                codigos_disciplinas.append(words[1][:-1])
+        else:
+            if isCodigoDeDisciplina(words[0][:-1]):
+                codigos_disciplinas.append(words[0][:-1])
     
-    # Pega todas as menções
+    # Menções
     for line in content:
         if isMencao(line[:-1]):
             mencoes.append(line[:-1])
-    # retira 4 mencoes que ficam ao final do arquivo em uma legenda
     mencoes.pop()
     mencoes.pop()
     mencoes.pop()
     mencoes.pop()
 
-    if len(mencoes) - len(codigos_disciplinas) > 3 or len(codigos_disciplinas) - len(mencoes) > 3:
-        print 'ERROR: Look at ' + str(i+1) + '.data', 'Mencoes: ', len(mencoes), 'Disciplinas:', len(codigos_disciplinas), len(mencoes) - len(codigos_disciplinas)
-
-    # Pega todos os períodos
-    # Conta quantas disciplinas em cada períodos
+    # Períodos
     for line in content:
         if 'Período:' in line:
             periodo = {}
@@ -85,37 +90,40 @@ for i in range(257):
             else:
                 # print line[:-1]
                 periodos.append(periodo)
-
+    
+    # Contagem de disciplinas por período
     periodo_atual = 0
     cont = 0
-    # print '-- Temos ', len(periodos), ' periodos no total'
-    
     for line in content:
         if 'Período:' in line:
-            if periodo_atual == 0:
-                # print '--- Achei o primeiro período! ', line[:-1]
-                periodo_atual += 1
-            elif '(Continuação)' in line:
-                # print '---- ', line[:-1]
+            if '(Continuação)' in line:
                 pass
             else:
-                # print '--- O periodo possui ', cont, ' disciplinas' 
-                periodos[periodo_atual-1]['num_disciplinas'] = cont
+                # Atribuir o cont pro periodo
+                if periodo_atual > 0:
+                    periodos[periodo_atual - 1]['num_disciplinas'] = cont
+                # Atualizar o periodo que estou contando
                 periodo_atual += 1
-                # print '--- Achei um novo periodo ', line[:-1], '. Comecando a contar.'
-                cont = 0
+                # Zerar o contador
+                cont = 0    
+        else:
+            words = line.split(' ')
+            if len(words) > 1:
+                if isCodigoDeDisciplina(words[1][:-1]):
+                    cont += 1
+            else:
+                if isCodigoDeDisciplina(words[0][:-1]):
+                    cont += 1
 
-        if isCodigoDeDisciplina(line[:-1]):
-            cont += 1
-    # print '--- O periodo ', line[:-1], ' possui ', cont, ' disciplinas'
     periodos[periodo_atual-1]['num_disciplinas'] = cont
-    # print '-- Total de disciplinas cursadas: ', len(codigos_disciplinas  )
     
-    # Monta histórico
+    # Montar Histórico
     historico = []
-
+    num = 1
     for periodo in periodos:
         semestre = {}
+        semestre['numero'] = num
+        num += 1
         semestre['ano'] = periodo['ano']
         semestre['periodo'] = periodo['periodo']
         semestre['disciplinas'] = []
@@ -124,20 +132,16 @@ for i in range(257):
             disciplina['codigo'] = codigos_disciplinas.pop(0)
             disciplina['mencao'] = mencoes.pop(0)
             semestre['disciplinas'].append(disciplina)
-
+        
         historico.append(semestre)
 
-    # print historico
-
     aluno['historico'] = historico
+
     # Adiciona o aluno na lista de alunos
     alunos.append(aluno)
 
-# DEBUG
-# print alunos
-
 # Cria o JSON com os alunos
 historicos = open('./json/historicos.json','w')
-historicos.write(json.dumps(alunos, sort_keys=True, indent=4, separators=(',',': ')))
+historicos.write(json.dumps(alunos, sort_keys=False, indent=4, separators=(',',': ')))
 
 
