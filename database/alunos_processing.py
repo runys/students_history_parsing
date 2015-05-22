@@ -95,31 +95,39 @@ def contMaterias(aluno, codigos):
     
     return cont
 
-for aluno in historicos:
-    num_materias = contMaterias(aluno,disciplinasProgramacao)
-    if num_materias > 25:
-        print("%d: %d" % (aluno["id"],num_materias))
+#for aluno in historicos:
+#    num_materias = contMaterias(aluno,disciplinasProgramacao)
+#    if num_materias > 25:
+#        print("%d: %d" % (aluno["id"],num_materias))
 
 
 # Fez materia com juiz eletronico?
 disciplinas_ejudge = [
-    {"codigo":"193704","ano":2012,"periodo":2},
-    {"codigo":"193704","ano":2013,"periodo":1},
-    {"codigo":"208493","ano":2012,"periodo":2},
-    {"codigo":"208493","ano":2013,"periodo":1},
-    {"codigo":"208493","ano":2013,"periodo":2},
-    {"codigo":"103195","ano":2013,"periodo":1},
-    {"codigo":"103195","ano":2013,"periodo":2},
-    {"codigo":"103195","ano":2014,"periodo":1},
-    {"codigo":"103195","ano":2014,"periodo":2}
+    {"codigo":"193704","ano":"2012","periodo":"2"},
+    {"codigo":"193704","ano":"2013","periodo":"1"},
+    {"codigo":"208493","ano":"2012","periodo":"2"},
+    {"codigo":"208493","ano":"2013","periodo":"1"},
+    {"codigo":"208493","ano":"2013","periodo":"2"},
+    {"codigo":"103195","ano":"2013","periodo":"1"},
+    {"codigo":"103195","ano":"2013","periodo":"2"},
+    {"codigo":"103195","ano":"2014","periodo":"1"},
+    {"codigo":"103195","ano":"2014","periodo":"2"}
 ]
 
-def isEjudge(aluno, disciplinas_ejudge):
+def isEjudge(aluno, disciplinas):
     for semestre in aluno["historico"]:
-        for disciplina in semetre["disciplinas"]:
-            
+        for disciplina in semestre["disciplinas"]:
+            for e in disciplinas:
+                if e["ano"] == semestre["ano"] and e["periodo"] == semestre["periodo"]:
+                    if e["codigo"] == disciplina["codigo"]:
+                        return True
     
     return False
+
+for aluno in historicos:
+    if isEjudge(aluno, disciplinas_ejudge):
+        print aluno["id"], 'fez eJudge'
+        
 
 # Desempenho antes do juiz
 # Desempenho após o juiz
