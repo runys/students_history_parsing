@@ -44,8 +44,19 @@ for k in range(i):
     disciplina['status'] = status[k]
     disciplina['prerequisitos'] = prerequisitos[k]
     
-    disciplinas.append(disciplina)
-
+    disciplinas.append(disciplina)    
+    
 print 'Criando JSON das disciplinas de programação'
 disciplinasJSON = open('./json/disciplinas_programacao.json','w')
 disciplinasJSON.write(json.dumps(disciplinas, sort_keys=False, indent=4, separators=(',',': ')))
+
+# Indexando
+disciplinas_indexadas = {}
+for disciplina in disciplinas:
+    disciplinas_indexadas[disciplina["codigo"]] = disciplina
+
+print 'Criando JSON indexado das disciplinas de programação'
+disciplinasJSON_indexado = open('./json/disciplinas_programacao_indexado.json','w')
+disciplinasJSON_indexado.write(json.dumps(disciplinas_indexadas, sort_keys=False, indent=4, separators=(',',': ')))
+
+    
