@@ -110,8 +110,9 @@ def calcularIRAAntesEjudge(aluno):
     for semestre in aluno["historico"]:
         if semestre["ano"] != turma["ano"] and semestre["periodo"] != turma["periodo"]:
             for disciplina in semestre["disciplinas"]:
-                if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
-                    ira += pesos[disciplina["mencao"]] # * int(disciplina["credito"])
+#                if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
+                if pesos[disciplina["mencao"]] != -1:
+                    ira += pesos[disciplina["mencao"]]  * int(disciplina["credito"])
                     num_disciplinas += 1
     if num_disciplinas == 0:
         return 0.0
@@ -126,7 +127,7 @@ def calcularIRADepoisEjudge(aluno):
         if semestre["ano"] >= turma["ano"] and semestre["periodo"] >= turma["periodo"]:
             for disciplina in semestre["disciplinas"]:
                 if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
-                    ira += pesos[disciplina["mencao"]]# * int(disciplina["credito"])
+                    ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
                     num_disciplinas += 1
     
     return ira / num_disciplinas

@@ -28,10 +28,10 @@ num_aluno_manteve = 0
 alunos_mantiveram = []
 
 for aluno in alunos_ejudge:
-    if float(aluno["desempenho_antes_ejudge"]) < float(aluno["desempenho_depois_ejudge"]):
+    if float(aluno["desempenho_antes_ejudge"]) < float(aluno["desempenho"]):
         num_aluno_melhorou += 1
         alunos_melhoraram.append(aluno["id"])
-    elif float(aluno["desempenho_antes_ejudge"]) > float(aluno["desempenho_depois_ejudge"]):
+    elif float(aluno["desempenho_antes_ejudge"]) > float(aluno["desempenho"]):
         num_aluno_piorou += 1
         alunos_pioraram.append(aluno["id"])
     else:
