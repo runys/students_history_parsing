@@ -9,125 +9,37 @@ alunos_file_path = "./json/historicos.json"
 with open(alunos_file_path) as data_file:
     historicos = json.load(data_file)
 
-# IRA
-pesos = {
-    'SR':  0,
-    'II':  1,
-    'MI':  2,
-    'MM':  3,
-    'MS':  4,
-    'SS':  5,
-    'TR': -1,
-    'CC': -1,
-    'AP': -1,
-    'DP': -1,
-    'TJ': -1
-}
-
-def calcularIRA(aluno):
-    ira = 0.0
-    num_disciplinas = 0
-    for semestre in aluno["historico"]:
-        for disciplina in semestre["disciplinas"]:
-            if pesos[disciplina["mencao"]] != -1:
-                ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
-                num_disciplinas += 1
-            
-    return ira / num_disciplinas
-
-#for aluno in historicos:
-#    print("%d: %.2f" % (aluno["id"],calcularIRA(aluno)))
-
-# IRA Programação
-disciplinasProgramacao = Set([
-        "113913",
-        "116301",
-        "195405",
-        "206199",
-        "110141",
-        "195413",
-        "206601",
-        "101095",
-        "208507",
-        "103209",
-        "201286",
-        "206181",
-        "195341",
-        "193704",
-        "203904",
-        "107409",
-        "107417",
-        "206598",
-        "193640",
-        "201294",
-        "208493",
-        "103195",
-        "117552",
-        "203882",
-        "208701"
-    ])
-
-def calcularIRASeletivo(aluno,disciplinas):
-    ira = 0.0
-    num_disciplinas = 0
-    for semestre in aluno["historico"]:
-        for disciplina in semestre["disciplinas"]:
-            if pesos[disciplina["mencao"]] != -1 and disciplina["codigo"] in disciplinas:
-                ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
-                num_disciplinas += 1
-    if num_disciplinas == 0:
-        return 0
-    
-    return ira / num_disciplinas
-
-#for aluno in historicos:
-#    print("%d: %.2f" % (aluno["id"],calcularIRASeletivo(aluno,disciplinasProgramacao)))
-
-
 # Quantas matérias de programação feitas
-def contMaterias(aluno, codigos):
-    cont = 0
-    
-    for semestre in aluno["historico"]:
-        for disciplina in semestre["disciplinas"]:
-            if disciplina["codigo"] in codigos:
-                cont += 1
-    
-    return cont
-
-#for aluno in historicos:
-#    num_materias = contMaterias(aluno,disciplinasProgramacao)
-#    if num_materias > 25:
-#        print("%d: %d" % (aluno["id"],num_materias))
-
-
-# Fez materia com juiz eletronico?
-disciplinas_ejudge = [
-    {"codigo":"193704","ano":"2012","periodo":"2"},
-    {"codigo":"193704","ano":"2013","periodo":"1"},
-    {"codigo":"208493","ano":"2012","periodo":"2"},
-    {"codigo":"208493","ano":"2013","periodo":"1"},
-    {"codigo":"208493","ano":"2013","periodo":"2"},
-    {"codigo":"103195","ano":"2013","periodo":"1"},
-    {"codigo":"103195","ano":"2013","periodo":"2"},
-    {"codigo":"103195","ano":"2014","periodo":"1"},
-    {"codigo":"103195","ano":"2014","periodo":"2"}
-]
-
-def isEjudge(aluno, disciplinas):
-    for semestre in aluno["historico"]:
-        for disciplina in semestre["disciplinas"]:
-            for e in disciplinas:
-                if e["ano"] == semestre["ano"] and e["periodo"] == semestre["periodo"]:
-                    if e["codigo"] == disciplina["codigo"]:
-                        return True
-    
-    return False
-
-for aluno in historicos:
-    if isEjudge(aluno, disciplinas_ejudge):
-        print aluno["id"], 'fez eJudge'
-        
-
+# IRA
+# IRA Programação
 # Desempenho antes do juiz
 # Desempenho após o juiz
+
+alunos_ejudge = []
+for aluno in historicos:
+    if aluno["ejudge"]:
+        alunos_ejudge.append(aluno)
+    
+num_aluno_melhorou = 0
+alunos_melhoraram = []
+num_aluno_piorou = 0
+alunos_pioraram = []
+num_aluno_manteve = 0
+alunos_mantiveram = []
+
+for aluno in alunos_ejudge:
+    if float(aluno["desempenho_antes_ejudge"]) < float(aluno["desempenho_depois_ejudge"]):
+        num_aluno_melhorou += 1
+        alunos_melhoraram.append(aluno["id"])
+    elif float(aluno["desempenho_antes_ejudge"]) > float(aluno["desempenho_depois_ejudge"]):
+        num_aluno_piorou += 1
+        alunos_pioraram.append(aluno["id"])
+    else:
+        num_aluno_manteve += 1
+        alunos_mantiveram.append(aluno["id"])
+
+print '+',num_aluno_melhorou,'\n-', num_aluno_piorou,'\n=', num_aluno_manteve
+
+print alunos_melhoraram
+print alunos_pioraram
+print alunos_mantiveram

@@ -1,5 +1,5 @@
-[
-    {
+{
+    "1": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -123,7 +123,7 @@
         "id": 1,
         "desempenho_programacao": 12.5
     },
-    {
+    "2": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -383,7 +383,7 @@
         "id": 2,
         "desempenho_programacao": 9.714285714285714
     },
-    {
+    "3": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -698,7 +698,7 @@
         "id": 3,
         "desempenho_programacao": 12.727272727272727
     },
-    {
+    "4": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -1017,7 +1017,7 @@
         "id": 4,
         "desempenho_programacao": 17.142857142857142
     },
-    {
+    "5": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -1416,7 +1416,7 @@
         "id": 5,
         "desempenho_programacao": 10.153846153846153
     },
-    {
+    "6": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -1816,7 +1816,7 @@
         "id": 6,
         "desempenho_programacao": 15.222222222222221
     },
-    {
+    "7": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -1955,7 +1955,7 @@
         "id": 7,
         "desempenho_programacao": 22.5
     },
-    {
+    "8": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -2224,7 +2224,7 @@
         "id": 8,
         "desempenho_programacao": 14.0
     },
-    {
+    "9": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -2617,7 +2617,7 @@
         "id": 9,
         "desempenho_programacao": 13.333333333333334
     },
-    {
+    "10": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -3049,7 +3049,7 @@
         "id": 10,
         "desempenho_programacao": 11.333333333333334
     },
-    {
+    "11": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -3426,7 +3426,7 @@
         "id": 11,
         "desempenho_programacao": 8.923076923076923
     },
-    {
+    "12": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -3748,7 +3748,7 @@
         "id": 12,
         "desempenho_programacao": 14.909090909090908
     },
-    {
+    "13": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -3867,7 +3867,7 @@
         "id": 13,
         "desempenho_programacao": 18.0
     },
-    {
+    "14": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -4076,7 +4076,7 @@
         "id": 14,
         "desempenho_programacao": 17.0
     },
-    {
+    "15": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -4237,7 +4237,7 @@
         "id": 15,
         "desempenho_programacao": 8.0
     },
-    {
+    "16": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -4405,7 +4405,7 @@
         "id": 16,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "17": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -4654,7 +4654,7 @@
         "id": 17,
         "desempenho_programacao": 13.6
     },
-    {
+    "18": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -5032,7 +5032,7 @@
         "id": 18,
         "desempenho_programacao": 14.857142857142858
     },
-    {
+    "19": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -5289,7 +5289,7 @@
         "id": 19,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "20": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -5826,7 +5826,7 @@
         "id": 20,
         "desempenho_programacao": 14.666666666666666
     },
-    {
+    "21": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -6156,7 +6156,7 @@
         "id": 21,
         "desempenho_programacao": 12.615384615384615
     },
-    {
+    "22": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -6359,7 +6359,7 @@
         "id": 22,
         "desempenho_programacao": 16.5
     },
-    {
+    "23": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -6559,7 +6559,7 @@
         "id": 23,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "24": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -6828,7 +6828,7 @@
         "id": 24,
         "desempenho_programacao": 15.5
     },
-    {
+    "25": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -7184,7 +7184,7 @@
         "id": 25,
         "desempenho_programacao": 17.6
     },
-    {
+    "26": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -7313,7 +7313,7 @@
         "id": 26,
         "desempenho_programacao": 24.0
     },
-    {
+    "27": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -7565,7 +7565,7 @@
         "id": 27,
         "desempenho_programacao": 15.0
     },
-    {
+    "28": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -7924,7 +7924,7 @@
         "id": 28,
         "desempenho_programacao": 15.0
     },
-    {
+    "29": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -8229,7 +8229,7 @@
         "id": 29,
         "desempenho_programacao": 9.692307692307692
     },
-    {
+    "30": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -8521,7 +8521,7 @@
         "id": 30,
         "desempenho_programacao": 15.2
     },
-    {
+    "31": {
         "num_disciplinas_programacao": 21,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -8904,7 +8904,7 @@
         "id": 31,
         "desempenho_programacao": 12.705882352941176
     },
-    {
+    "32": {
         "num_disciplinas_programacao": 24,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -9251,7 +9251,7 @@
         "id": 32,
         "desempenho_programacao": 7.111111111111111
     },
-    {
+    "33": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -9621,7 +9621,7 @@
         "id": 33,
         "desempenho_programacao": 12.444444444444445
     },
-    {
+    "34": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -9872,7 +9872,7 @@
         "id": 34,
         "desempenho_programacao": 17.6
     },
-    {
+    "35": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -10225,7 +10225,7 @@
         "id": 35,
         "desempenho_programacao": 11.692307692307692
     },
-    {
+    "36": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -10526,7 +10526,7 @@
         "id": 36,
         "desempenho_programacao": 12.0
     },
-    {
+    "37": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -11093,7 +11093,7 @@
         "id": 37,
         "desempenho_programacao": 14.153846153846153
     },
-    {
+    "38": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -11462,7 +11462,7 @@
         "id": 38,
         "desempenho_programacao": 13.0
     },
-    {
+    "39": {
         "num_disciplinas_programacao": 24,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -11836,7 +11836,7 @@
         "id": 39,
         "desempenho_programacao": 9.647058823529411
     },
-    {
+    "40": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -12184,7 +12184,7 @@
         "id": 40,
         "desempenho_programacao": 14.153846153846153
     },
-    {
+    "41": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -12594,7 +12594,7 @@
         "id": 41,
         "desempenho_programacao": 12.615384615384615
     },
-    {
+    "42": {
         "num_disciplinas_programacao": 22,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -13058,7 +13058,7 @@
         "id": 42,
         "desempenho_programacao": 6.352941176470588
     },
-    {
+    "43": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -13384,7 +13384,7 @@
         "id": 43,
         "desempenho_programacao": 15.142857142857142
     },
-    {
+    "44": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -13634,7 +13634,7 @@
         "id": 44,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "45": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -13874,7 +13874,7 @@
         "id": 45,
         "desempenho_programacao": 9.2
     },
-    {
+    "46": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -14068,7 +14068,7 @@
         "id": 46,
         "desempenho_programacao": 9.5
     },
-    {
+    "47": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -14224,7 +14224,7 @@
         "id": 47,
         "desempenho_programacao": 10.0
     },
-    {
+    "48": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -14422,7 +14422,7 @@
         "id": 48,
         "desempenho_programacao": 14.666666666666666
     },
-    {
+    "49": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -14748,7 +14748,7 @@
         "id": 49,
         "desempenho_programacao": 12.266666666666667
     },
-    {
+    "50": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -14904,7 +14904,7 @@
         "id": 50,
         "desempenho_programacao": 12.0
     },
-    {
+    "51": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -15092,7 +15092,7 @@
         "id": 51,
         "desempenho_programacao": 17.0
     },
-    {
+    "52": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -15302,7 +15302,7 @@
         "id": 52,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "53": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -15645,7 +15645,7 @@
         "id": 53,
         "desempenho_programacao": 11.0
     },
-    {
+    "54": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -15906,7 +15906,7 @@
         "id": 54,
         "desempenho_programacao": 9.0
     },
-    {
+    "55": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -16185,7 +16185,7 @@
         "id": 55,
         "desempenho_programacao": 7.75
     },
-    {
+    "56": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -16366,7 +16366,7 @@
         "id": 56,
         "desempenho_programacao": 16.0
     },
-    {
+    "57": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -16692,7 +16692,7 @@
         "id": 57,
         "desempenho_programacao": 12.307692307692308
     },
-    {
+    "58": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -16917,7 +16917,7 @@
         "id": 58,
         "desempenho_programacao": 14.0
     },
-    {
+    "59": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -17111,7 +17111,7 @@
         "id": 59,
         "desempenho_programacao": 9.142857142857142
     },
-    {
+    "60": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -17630,7 +17630,7 @@
         "id": 60,
         "desempenho_programacao": 10.8
     },
-    {
+    "61": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -17801,7 +17801,7 @@
         "id": 61,
         "desempenho_programacao": 17.714285714285715
     },
-    {
+    "62": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -18194,7 +18194,7 @@
         "id": 62,
         "desempenho_programacao": 13.714285714285714
     },
-    {
+    "63": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -18486,7 +18486,7 @@
         "id": 63,
         "desempenho_programacao": 13.0
     },
-    {
+    "64": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -18864,7 +18864,7 @@
         "id": 64,
         "desempenho_programacao": 13.5
     },
-    {
+    "65": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -19065,7 +19065,7 @@
         "id": 65,
         "desempenho_programacao": 6.4
     },
-    {
+    "66": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -19447,7 +19447,7 @@
         "id": 66,
         "desempenho_programacao": 11.076923076923077
     },
-    {
+    "67": {
         "num_disciplinas_programacao": 21,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -19820,7 +19820,7 @@
         "id": 67,
         "desempenho_programacao": 12.88888888888889
     },
-    {
+    "68": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -20019,7 +20019,7 @@
         "id": 68,
         "desempenho_programacao": 8.8
     },
-    {
+    "69": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -20228,7 +20228,7 @@
         "id": 69,
         "desempenho_programacao": 10.0
     },
-    {
+    "70": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -20536,7 +20536,7 @@
         "id": 70,
         "desempenho_programacao": 11.142857142857142
     },
-    {
+    "71": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -20849,7 +20849,7 @@
         "id": 71,
         "desempenho_programacao": 16.333333333333332
     },
-    {
+    "72": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -20995,7 +20995,7 @@
         "id": 72,
         "desempenho_programacao": 13.333333333333334
     },
-    {
+    "73": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -21203,7 +21203,7 @@
         "id": 73,
         "desempenho_programacao": 11.5
     },
-    {
+    "74": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -21575,7 +21575,7 @@
         "id": 74,
         "desempenho_programacao": 13.0
     },
-    {
+    "75": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -21773,7 +21773,7 @@
         "id": 75,
         "desempenho_programacao": 11.2
     },
-    {
+    "76": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -21870,7 +21870,7 @@
         "id": 76,
         "desempenho_programacao": 18.0
     },
-    {
+    "77": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -22068,7 +22068,7 @@
         "id": 77,
         "desempenho_programacao": 14.75
     },
-    {
+    "78": {
         "num_disciplinas_programacao": 22,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -22512,7 +22512,7 @@
         "id": 78,
         "desempenho_programacao": 10.526315789473685
     },
-    {
+    "79": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -22711,7 +22711,7 @@
         "id": 79,
         "desempenho_programacao": 14.857142857142858
     },
-    {
+    "80": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -22925,7 +22925,7 @@
         "id": 80,
         "desempenho_programacao": 18.666666666666668
     },
-    {
+    "81": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -23244,7 +23244,7 @@
         "id": 81,
         "desempenho_programacao": 11.692307692307692
     },
-    {
+    "82": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -23432,7 +23432,7 @@
         "id": 82,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "83": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -23827,7 +23827,7 @@
         "id": 83,
         "desempenho_programacao": 11.2
     },
-    {
+    "84": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -24026,7 +24026,7 @@
         "id": 84,
         "desempenho_programacao": 9.0
     },
-    {
+    "85": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -24306,7 +24306,7 @@
         "id": 85,
         "desempenho_programacao": 8.545454545454545
     },
-    {
+    "86": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -24829,7 +24829,7 @@
         "id": 86,
         "desempenho_programacao": 12.625
     },
-    {
+    "87": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -24990,7 +24990,7 @@
         "id": 87,
         "desempenho_programacao": 7.333333333333333
     },
-    {
+    "88": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -25389,7 +25389,7 @@
         "id": 88,
         "desempenho_programacao": 13.6
     },
-    {
+    "89": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -25577,7 +25577,7 @@
         "id": 89,
         "desempenho_programacao": 16.5
     },
-    {
+    "90": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -25733,7 +25733,7 @@
         "id": 90,
         "desempenho_programacao": 8.0
     },
-    {
+    "91": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -25909,7 +25909,7 @@
         "id": 91,
         "desempenho_programacao": 15.2
     },
-    {
+    "92": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -26065,7 +26065,7 @@
         "id": 92,
         "desempenho_programacao": 10.333333333333334
     },
-    {
+    "93": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -26426,7 +26426,7 @@
         "id": 93,
         "desempenho_programacao": 14.333333333333334
     },
-    {
+    "94": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -26668,7 +26668,7 @@
         "id": 94,
         "desempenho_programacao": 11.333333333333334
     },
-    {
+    "95": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -26851,7 +26851,7 @@
         "id": 95,
         "desempenho_programacao": 12.8
     },
-    {
+    "96": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -27060,7 +27060,7 @@
         "id": 96,
         "desempenho_programacao": 11.428571428571429
     },
-    {
+    "97": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -27280,7 +27280,7 @@
         "id": 97,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "98": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -27446,7 +27446,7 @@
         "id": 98,
         "desempenho_programacao": 13.714285714285714
     },
-    {
+    "99": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -27586,7 +27586,7 @@
         "id": 99,
         "desempenho_programacao": 12.0
     },
-    {
+    "100": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -27997,7 +27997,7 @@
         "id": 100,
         "desempenho_programacao": 14.153846153846153
     },
-    {
+    "101": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -28328,7 +28328,7 @@
         "id": 101,
         "desempenho_programacao": 12.88888888888889
     },
-    {
+    "102": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -28555,7 +28555,7 @@
         "id": 102,
         "desempenho_programacao": 8.5
     },
-    {
+    "103": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -28823,7 +28823,7 @@
         "id": 103,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "104": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -28984,7 +28984,7 @@
         "id": 104,
         "desempenho_programacao": 17.333333333333332
     },
-    {
+    "105": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -29322,7 +29322,7 @@
         "id": 105,
         "desempenho_programacao": 8.333333333333334
     },
-    {
+    "106": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -29744,7 +29744,7 @@
         "id": 106,
         "desempenho_programacao": 11.5
     },
-    {
+    "107": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -30068,7 +30068,7 @@
         "id": 107,
         "desempenho_programacao": 16.857142857142858
     },
-    {
+    "108": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -30209,7 +30209,7 @@
         "id": 108,
         "desempenho_programacao": 12.5
     },
-    {
+    "109": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -30432,7 +30432,7 @@
         "id": 109,
         "desempenho_programacao": 12.4
     },
-    {
+    "110": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -30719,7 +30719,7 @@
         "id": 110,
         "desempenho_programacao": 12.8
     },
-    {
+    "111": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -30917,7 +30917,7 @@
         "id": 111,
         "desempenho_programacao": 13.0
     },
-    {
+    "112": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -31063,7 +31063,7 @@
         "id": 112,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "113": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -31317,7 +31317,7 @@
         "id": 113,
         "desempenho_programacao": 8.545454545454545
     },
-    {
+    "114": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -31708,7 +31708,7 @@
         "id": 114,
         "desempenho_programacao": 14.545454545454545
     },
-    {
+    "115": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -32064,7 +32064,7 @@
         "id": 115,
         "desempenho_programacao": 17.666666666666668
     },
-    {
+    "116": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -32225,7 +32225,7 @@
         "id": 116,
         "desempenho_programacao": 14.4
     },
-    {
+    "117": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -32578,7 +32578,7 @@
         "id": 117,
         "desempenho_programacao": 8.666666666666666
     },
-    {
+    "118": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -32874,7 +32874,7 @@
         "id": 118,
         "desempenho_programacao": 8.571428571428571
     },
-    {
+    "119": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -33109,7 +33109,7 @@
         "id": 119,
         "desempenho_programacao": 12.5
     },
-    {
+    "120": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -33206,7 +33206,7 @@
         "id": 120,
         "desempenho_programacao": 18.0
     },
-    {
+    "121": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -33565,7 +33565,7 @@
         "id": 121,
         "desempenho_programacao": 18.0
     },
-    {
+    "122": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -33783,7 +33783,7 @@
         "id": 122,
         "desempenho_programacao": 14.5
     },
-    {
+    "123": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -33885,7 +33885,7 @@
         "id": 123,
         "desempenho_programacao": 30.0
     },
-    {
+    "124": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -34170,7 +34170,7 @@
         "id": 124,
         "desempenho_programacao": 10.75
     },
-    {
+    "125": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -34341,7 +34341,7 @@
         "id": 125,
         "desempenho_programacao": 11.428571428571429
     },
-    {
+    "126": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -34623,7 +34623,7 @@
         "id": 126,
         "desempenho_programacao": 12.0
     },
-    {
+    "127": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -34916,7 +34916,7 @@
         "id": 127,
         "desempenho_programacao": 10.0
     },
-    {
+    "128": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -35316,7 +35316,7 @@
         "id": 128,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "129": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -35659,7 +35659,7 @@
         "id": 129,
         "desempenho_programacao": 13.090909090909092
     },
-    {
+    "130": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -35939,7 +35939,7 @@
         "id": 130,
         "desempenho_programacao": 12.0
     },
-    {
+    "131": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -36203,7 +36203,7 @@
         "id": 131,
         "desempenho_programacao": 8.666666666666666
     },
-    {
+    "132": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -36628,7 +36628,7 @@
         "id": 132,
         "desempenho_programacao": 12.307692307692308
     },
-    {
+    "133": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -37025,7 +37025,7 @@
         "id": 133,
         "desempenho_programacao": 12.8
     },
-    {
+    "134": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -37196,7 +37196,7 @@
         "id": 134,
         "desempenho_programacao": 13.714285714285714
     },
-    {
+    "135": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -37412,7 +37412,7 @@
         "id": 135,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "136": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -37531,7 +37531,7 @@
         "id": 136,
         "desempenho_programacao": 14.0
     },
-    {
+    "137": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -37806,7 +37806,7 @@
         "id": 137,
         "desempenho_programacao": 12.363636363636363
     },
-    {
+    "138": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -38205,7 +38205,7 @@
         "id": 138,
         "desempenho_programacao": 13.846153846153847
     },
-    {
+    "139": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -38541,7 +38541,7 @@
         "id": 139,
         "desempenho_programacao": 10.8
     },
-    {
+    "140": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -38749,7 +38749,7 @@
         "id": 140,
         "desempenho_programacao": 20.666666666666668
     },
-    {
+    "141": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -39008,7 +39008,7 @@
         "id": 141,
         "desempenho_programacao": 18.8
     },
-    {
+    "142": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -39250,7 +39250,7 @@
         "id": 142,
         "desempenho_programacao": 13.142857142857142
     },
-    {
+    "143": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -39480,7 +39480,7 @@
         "id": 143,
         "desempenho_programacao": 9.142857142857142
     },
-    {
+    "144": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -39646,7 +39646,7 @@
         "id": 144,
         "desempenho_programacao": 15.333333333333334
     },
-    {
+    "145": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -40029,7 +40029,7 @@
         "id": 145,
         "desempenho_programacao": 17.6
     },
-    {
+    "146": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -40397,7 +40397,7 @@
         "id": 146,
         "desempenho_programacao": 10.857142857142858
     },
-    {
+    "147": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -40568,7 +40568,7 @@
         "id": 147,
         "desempenho_programacao": 17.714285714285715
     },
-    {
+    "148": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -40708,7 +40708,7 @@
         "id": 148,
         "desempenho_programacao": 13.0
     },
-    {
+    "149": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -40859,7 +40859,7 @@
         "id": 149,
         "desempenho_programacao": 8.0
     },
-    {
+    "150": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -41204,7 +41204,7 @@
         "id": 150,
         "desempenho_programacao": 15.375
     },
-    {
+    "151": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -41510,7 +41510,7 @@
         "id": 151,
         "desempenho_programacao": 12.0
     },
-    {
+    "152": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -41836,7 +41836,7 @@
         "id": 152,
         "desempenho_programacao": 18.470588235294116
     },
-    {
+    "153": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -42182,7 +42182,7 @@
         "id": 153,
         "desempenho_programacao": 10.166666666666666
     },
-    {
+    "154": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -42417,7 +42417,7 @@
         "id": 154,
         "desempenho_programacao": 12.5
     },
-    {
+    "155": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -42861,7 +42861,7 @@
         "id": 155,
         "desempenho_programacao": 13.384615384615385
     },
-    {
+    "156": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -43172,7 +43172,7 @@
         "id": 156,
         "desempenho_programacao": 14.857142857142858
     },
-    {
+    "157": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -43468,7 +43468,7 @@
         "id": 157,
         "desempenho_programacao": 11.6
     },
-    {
+    "158": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -43597,7 +43597,7 @@
         "id": 158,
         "desempenho_programacao": 17.333333333333332
     },
-    {
+    "159": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -43736,7 +43736,7 @@
         "id": 159,
         "desempenho_programacao": 12.5
     },
-    {
+    "160": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -43860,7 +43860,7 @@
         "id": 160,
         "desempenho_programacao": 12.0
     },
-    {
+    "161": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -44043,7 +44043,7 @@
         "id": 161,
         "desempenho_programacao": 21.0
     },
-    {
+    "162": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -44276,7 +44276,7 @@
         "id": 162,
         "desempenho_programacao": 14.0
     },
-    {
+    "163": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -44652,7 +44652,7 @@
         "id": 163,
         "desempenho_programacao": 10.857142857142858
     },
-    {
+    "164": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -45028,7 +45028,7 @@
         "id": 164,
         "desempenho_programacao": 15.375
     },
-    {
+    "165": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -45351,7 +45351,7 @@
         "id": 165,
         "desempenho_programacao": 15.666666666666666
     },
-    {
+    "166": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -45596,7 +45596,7 @@
         "id": 166,
         "desempenho_programacao": 14.222222222222221
     },
-    {
+    "167": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -45831,7 +45831,7 @@
         "id": 167,
         "desempenho_programacao": 10.0
     },
-    {
+    "168": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -46095,7 +46095,7 @@
         "id": 168,
         "desempenho_programacao": 16.0
     },
-    {
+    "169": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -46236,7 +46236,7 @@
         "id": 169,
         "desempenho_programacao": 6.0
     },
-    {
+    "170": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -46481,7 +46481,7 @@
         "id": 170,
         "desempenho_programacao": 10.8
     },
-    {
+    "171": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -46647,7 +46647,7 @@
         "id": 171,
         "desempenho_programacao": 10.0
     },
-    {
+    "172": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -46739,7 +46739,7 @@
         "id": 172,
         "desempenho_programacao": 18.0
     },
-    {
+    "173": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -46948,7 +46948,7 @@
         "id": 173,
         "desempenho_programacao": 15.0
     },
-    {
+    "174": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -47146,7 +47146,7 @@
         "id": 174,
         "desempenho_programacao": 10.857142857142858
     },
-    {
+    "175": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -47415,7 +47415,7 @@
         "id": 175,
         "desempenho_programacao": 13.0
     },
-    {
+    "176": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -47507,7 +47507,7 @@
         "id": 176,
         "desempenho_programacao": 18.0
     },
-    {
+    "177": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -47914,7 +47914,7 @@
         "id": 177,
         "desempenho_programacao": 12.375
     },
-    {
+    "178": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -48080,7 +48080,7 @@
         "id": 178,
         "desempenho_programacao": 13.142857142857142
     },
-    {
+    "179": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -48470,7 +48470,7 @@
         "id": 179,
         "desempenho_programacao": 15.466666666666667
     },
-    {
+    "180": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -48774,7 +48774,7 @@
         "id": 180,
         "desempenho_programacao": 15.636363636363637
     },
-    {
+    "181": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -49069,7 +49069,7 @@
         "id": 181,
         "desempenho_programacao": 16.76923076923077
     },
-    {
+    "182": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -49166,7 +49166,7 @@
         "id": 182,
         "desempenho_programacao": 24.0
     },
-    {
+    "183": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -49391,7 +49391,7 @@
         "id": 183,
         "desempenho_programacao": 11.2
     },
-    {
+    "184": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -49733,7 +49733,7 @@
         "id": 184,
         "desempenho_programacao": 12.0
     },
-    {
+    "185": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -49916,7 +49916,7 @@
         "id": 185,
         "desempenho_programacao": 16.0
     },
-    {
+    "186": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -50099,7 +50099,7 @@
         "id": 186,
         "desempenho_programacao": 16.0
     },
-    {
+    "187": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -50425,7 +50425,7 @@
         "id": 187,
         "desempenho_programacao": 8.0
     },
-    {
+    "188": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -50741,7 +50741,7 @@
         "id": 188,
         "desempenho_programacao": 10.545454545454545
     },
-    {
+    "189": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -51146,7 +51146,7 @@
         "id": 189,
         "desempenho_programacao": 12.0
     },
-    {
+    "190": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -51317,7 +51317,7 @@
         "id": 190,
         "desempenho_programacao": 14.857142857142858
     },
-    {
+    "191": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -51431,7 +51431,7 @@
         "id": 191,
         "desempenho_programacao": 18.0
     },
-    {
+    "192": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -51695,7 +51695,7 @@
         "id": 192,
         "desempenho_programacao": 16.0
     },
-    {
+    "193": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -52042,7 +52042,7 @@
         "id": 193,
         "desempenho_programacao": 13.285714285714286
     },
-    {
+    "194": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -52341,7 +52341,7 @@
         "id": 194,
         "desempenho_programacao": 11.428571428571429
     },
-    {
+    "195": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -52576,7 +52576,7 @@
         "id": 195,
         "desempenho_programacao": 10.8
     },
-    {
+    "196": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -52998,7 +52998,7 @@
         "id": 196,
         "desempenho_programacao": 13.0
     },
-    {
+    "197": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -53278,7 +53278,7 @@
         "id": 197,
         "desempenho_programacao": 12.4
     },
-    {
+    "198": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -53684,7 +53684,7 @@
         "id": 198,
         "desempenho_programacao": 14.8
     },
-    {
+    "199": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -53976,7 +53976,7 @@
         "id": 199,
         "desempenho_programacao": 9.166666666666666
     },
-    {
+    "200": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -54180,7 +54180,7 @@
         "id": 200,
         "desempenho_programacao": 14.285714285714286
     },
-    {
+    "201": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -54460,7 +54460,7 @@
         "id": 201,
         "desempenho_programacao": 11.636363636363637
     },
-    {
+    "202": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -54734,7 +54734,7 @@
         "id": 202,
         "desempenho_programacao": 6.5
     },
-    {
+    "203": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -55142,7 +55142,7 @@
         "id": 203,
         "desempenho_programacao": 17.6
     },
-    {
+    "204": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -55303,7 +55303,7 @@
         "id": 204,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "205": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -55498,7 +55498,7 @@
         "id": 205,
         "desempenho_programacao": 17.0
     },
-    {
+    "206": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -55919,7 +55919,7 @@
         "id": 206,
         "desempenho_programacao": 12.571428571428571
     },
-    {
+    "207": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -56021,7 +56021,7 @@
         "id": 207,
         "desempenho_programacao": 24.0
     },
-    {
+    "208": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -56261,7 +56261,7 @@
         "id": 208,
         "desempenho_programacao": 13.333333333333334
     },
-    {
+    "209": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -56385,7 +56385,7 @@
         "id": 209,
         "desempenho_programacao": 18.0
     },
-    {
+    "210": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -56538,7 +56538,7 @@
         "id": 210,
         "desempenho_programacao": 12.0
     },
-    {
+    "211": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -56960,7 +56960,7 @@
         "id": 211,
         "desempenho_programacao": 15.142857142857142
     },
-    {
+    "212": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -57264,7 +57264,7 @@
         "id": 212,
         "desempenho_programacao": 14.0
     },
-    {
+    "213": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -57634,7 +57634,7 @@
         "id": 213,
         "desempenho_programacao": 15.428571428571429
     },
-    {
+    "214": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -57911,7 +57911,7 @@
         "id": 214,
         "desempenho_programacao": 10.0
     },
-    {
+    "215": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -58168,7 +58168,7 @@
         "id": 215,
         "desempenho_programacao": 12.0
     },
-    {
+    "216": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -58418,7 +58418,7 @@
         "id": 216,
         "desempenho_programacao": 14.0
     },
-    {
+    "217": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -58729,7 +58729,7 @@
         "id": 217,
         "desempenho_programacao": 6.8
     },
-    {
+    "218": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -59047,7 +59047,7 @@
         "id": 218,
         "desempenho_programacao": 12.0
     },
-    {
+    "219": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -59287,7 +59287,7 @@
         "id": 219,
         "desempenho_programacao": 11.11111111111111
     },
-    {
+    "220": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -59678,7 +59678,7 @@
         "id": 220,
         "desempenho_programacao": 7.25
     },
-    {
+    "221": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -60088,7 +60088,7 @@
         "id": 221,
         "desempenho_programacao": 16.727272727272727
     },
-    {
+    "222": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -60338,7 +60338,7 @@
         "id": 222,
         "desempenho_programacao": 12.0
     },
-    {
+    "223": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -60605,7 +60605,7 @@
         "id": 223,
         "desempenho_programacao": 15.555555555555555
     },
-    {
+    "224": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -61023,7 +61023,7 @@
         "id": 224,
         "desempenho_programacao": 11.6
     },
-    {
+    "225": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -61267,7 +61267,7 @@
         "id": 225,
         "desempenho_programacao": 7.777777777777778
     },
-    {
+    "226": {
         "num_disciplinas_programacao": 23,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -61674,7 +61674,7 @@
         "id": 226,
         "desempenho_programacao": 15.7
     },
-    {
+    "227": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -62086,7 +62086,7 @@
         "id": 227,
         "desempenho_programacao": 14.461538461538462
     },
-    {
+    "228": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -62434,7 +62434,7 @@
         "id": 228,
         "desempenho_programacao": 14.461538461538462
     },
-    {
+    "229": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -62649,7 +62649,7 @@
         "id": 229,
         "desempenho_programacao": 11.0
     },
-    {
+    "230": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -62955,7 +62955,7 @@
         "id": 230,
         "desempenho_programacao": 12.666666666666666
     },
-    {
+    "231": {
         "num_disciplinas_programacao": 21,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -63347,7 +63347,7 @@
         "id": 231,
         "desempenho_programacao": 17.058823529411764
     },
-    {
+    "232": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -63589,7 +63589,7 @@
         "id": 232,
         "desempenho_programacao": 15.636363636363637
     },
-    {
+    "233": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -63725,7 +63725,7 @@
         "id": 233,
         "desempenho_programacao": 0.0
     },
-    {
+    "234": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -64100,7 +64100,7 @@
         "id": 234,
         "desempenho_programacao": 17.818181818181817
     },
-    {
+    "235": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -64372,7 +64372,7 @@
         "id": 235,
         "desempenho_programacao": 8.0
     },
-    {
+    "236": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -64743,7 +64743,7 @@
         "id": 236,
         "desempenho_programacao": 9.066666666666666
     },
-    {
+    "237": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -65036,7 +65036,7 @@
         "id": 237,
         "desempenho_programacao": 8.857142857142858
     },
-    {
+    "238": {
         "num_disciplinas_programacao": 23,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -65556,7 +65556,7 @@
         "id": 238,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "239": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -65717,7 +65717,7 @@
         "id": 239,
         "desempenho_programacao": 12.0
     },
-    {
+    "240": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -65836,7 +65836,7 @@
         "id": 240,
         "desempenho_programacao": 16.4
     },
-    {
+    "241": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -66045,7 +66045,7 @@
         "id": 241,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "242": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -66211,7 +66211,7 @@
         "id": 242,
         "desempenho_programacao": 14.333333333333334
     },
-    {
+    "243": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -66500,7 +66500,7 @@
         "id": 243,
         "desempenho_programacao": 11.454545454545455
     },
-    {
+    "244": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -66800,7 +66800,7 @@
         "id": 244,
         "desempenho_programacao": 12.0
     },
-    {
+    "245": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -67205,7 +67205,7 @@
         "id": 245,
         "desempenho_programacao": 13.23076923076923
     },
-    {
+    "246": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -67553,7 +67553,7 @@
         "id": 246,
         "desempenho_programacao": 14.625
     },
-    {
+    "247": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -67918,7 +67918,7 @@
         "id": 247,
         "desempenho_programacao": 12.0
     },
-    {
+    "248": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -68138,7 +68138,7 @@
         "id": 248,
         "desempenho_programacao": 12.0
     },
-    {
+    "249": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -68528,7 +68528,7 @@
         "id": 249,
         "desempenho_programacao": 11.466666666666667
     },
-    {
+    "250": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -68735,7 +68735,7 @@
         "id": 250,
         "desempenho_programacao": 13.272727272727273
     },
-    {
+    "251": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -69128,7 +69128,7 @@
         "id": 251,
         "desempenho_programacao": 12.533333333333333
     },
-    {
+    "252": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -69257,7 +69257,7 @@
         "id": 252,
         "desempenho_programacao": 15.5
     },
-    {
+    "253": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -69462,7 +69462,7 @@
         "id": 253,
         "desempenho_programacao": 11.0
     },
-    {
+    "254": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -69618,7 +69618,7 @@
         "id": 254,
         "desempenho_programacao": 16.0
     },
-    {
+    "255": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -69951,7 +69951,7 @@
         "id": 255,
         "desempenho_programacao": 10.117647058823529
     },
-    {
+    "256": {
         "num_disciplinas_programacao": 25,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -70479,7 +70479,7 @@
         "id": 256,
         "desempenho_programacao": 12.0
     },
-    {
+    "257": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -70768,7 +70768,7 @@
         "id": 257,
         "desempenho_programacao": 14.222222222222221
     },
-    {
+    "258": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -71130,7 +71130,7 @@
         "id": 258,
         "desempenho_programacao": 14.923076923076923
     },
-    {
+    "259": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -71538,7 +71538,7 @@
         "id": 259,
         "desempenho_programacao": 21.714285714285715
     },
-    {
+    "260": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -71690,7 +71690,7 @@
         "id": 260,
         "desempenho_programacao": 3.2
     },
-    {
+    "261": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -72060,7 +72060,7 @@
         "id": 261,
         "desempenho_programacao": 17.0
     },
-    {
+    "262": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -72291,7 +72291,7 @@
         "id": 262,
         "desempenho_programacao": 5.090909090909091
     },
-    {
+    "263": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -72492,7 +72492,7 @@
         "id": 263,
         "desempenho_programacao": 6.222222222222222
     },
-    {
+    "264": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -72654,7 +72654,7 @@
         "id": 264,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "265": {
         "num_disciplinas_programacao": 21,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -73102,7 +73102,7 @@
         "id": 265,
         "desempenho_programacao": 13.3
     },
-    {
+    "266": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -73216,7 +73216,7 @@
         "id": 266,
         "desempenho_programacao": 6.0
     },
-    {
+    "267": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -73491,7 +73491,7 @@
         "id": 267,
         "desempenho_programacao": 14.0
     },
-    {
+    "268": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -73649,7 +73649,7 @@
         "id": 268,
         "desempenho_programacao": 5.0
     },
-    {
+    "269": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -74023,7 +74023,7 @@
         "id": 269,
         "desempenho_programacao": 16.833333333333332
     },
-    {
+    "270": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -74158,7 +74158,7 @@
         "id": 270,
         "desempenho_programacao": 4.0
     },
-    {
+    "271": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -74522,7 +74522,7 @@
         "id": 271,
         "desempenho_programacao": 18.875
     },
-    {
+    "272": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -74913,7 +74913,7 @@
         "id": 272,
         "desempenho_programacao": 16.0
     },
-    {
+    "273": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -75198,7 +75198,7 @@
         "id": 273,
         "desempenho_programacao": 4.666666666666667
     },
-    {
+    "274": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -75403,7 +75403,7 @@
         "id": 274,
         "desempenho_programacao": 12.0
     },
-    {
+    "275": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -75768,7 +75768,7 @@
         "id": 275,
         "desempenho_programacao": 14.333333333333334
     },
-    {
+    "276": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -75971,7 +75971,7 @@
         "id": 276,
         "desempenho_programacao": 13.333333333333334
     },
-    {
+    "277": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -76118,7 +76118,7 @@
         "id": 277,
         "desempenho_programacao": 9.6
     },
-    {
+    "278": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -76312,7 +76312,7 @@
         "id": 278,
         "desempenho_programacao": 11.333333333333334
     },
-    {
+    "279": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -76753,7 +76753,7 @@
         "id": 279,
         "desempenho_programacao": 9.647058823529411
     },
-    {
+    "280": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -77095,7 +77095,7 @@
         "id": 280,
         "desempenho_programacao": 8.333333333333334
     },
-    {
+    "281": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -77228,7 +77228,7 @@
         "id": 281,
         "desempenho_programacao": 0.0
     },
-    {
+    "282": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -77604,7 +77604,7 @@
         "id": 282,
         "desempenho_programacao": 16.235294117647058
     },
-    {
+    "283": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -77842,7 +77842,7 @@
         "id": 283,
         "desempenho_programacao": 8.0
     },
-    {
+    "284": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -78244,7 +78244,7 @@
         "id": 284,
         "desempenho_programacao": 16.470588235294116
     },
-    {
+    "285": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -78736,7 +78736,7 @@
         "id": 285,
         "desempenho_programacao": 12.0
     },
-    {
+    "286": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -78958,7 +78958,7 @@
         "id": 286,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "287": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -79302,7 +79302,7 @@
         "id": 287,
         "desempenho_programacao": 8.0
     },
-    {
+    "288": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -79709,7 +79709,7 @@
         "id": 288,
         "desempenho_programacao": 15.285714285714286
     },
-    {
+    "289": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -80170,7 +80170,7 @@
         "id": 289,
         "desempenho_programacao": 10.76923076923077
     },
-    {
+    "290": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -80441,7 +80441,7 @@
         "id": 290,
         "desempenho_programacao": 12.0
     },
-    {
+    "291": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -80634,7 +80634,7 @@
         "id": 291,
         "desempenho_programacao": 11.2
     },
-    {
+    "292": {
         "num_disciplinas_programacao": 22,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -81151,7 +81151,7 @@
         "id": 292,
         "desempenho_programacao": 12.31578947368421
     },
-    {
+    "293": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -81307,7 +81307,7 @@
         "id": 293,
         "desempenho_programacao": 8.0
     },
-    {
+    "294": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -81691,7 +81691,7 @@
         "id": 294,
         "desempenho_programacao": 16.727272727272727
     },
-    {
+    "295": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -81838,7 +81838,7 @@
         "id": 295,
         "desempenho_programacao": 2.0
     },
-    {
+    "296": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -82057,7 +82057,7 @@
         "id": 296,
         "desempenho_programacao": 10.0
     },
-    {
+    "297": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -82277,7 +82277,7 @@
         "id": 297,
         "desempenho_programacao": 6.0
     },
-    {
+    "298": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -82523,7 +82523,7 @@
         "id": 298,
         "desempenho_programacao": 8.6
     },
-    {
+    "299": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -82744,7 +82744,7 @@
         "id": 299,
         "desempenho_programacao": 3.0
     },
-    {
+    "300": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -82955,7 +82955,7 @@
         "id": 300,
         "desempenho_programacao": 2.6666666666666665
     },
-    {
+    "301": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -83207,7 +83207,7 @@
         "id": 301,
         "desempenho_programacao": 11.75
     },
-    {
+    "302": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -83347,7 +83347,7 @@
         "id": 302,
         "desempenho_programacao": 12.0
     },
-    {
+    "303": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -83563,7 +83563,7 @@
         "id": 303,
         "desempenho_programacao": 11.0
     },
-    {
+    "304": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -83979,7 +83979,7 @@
         "id": 304,
         "desempenho_programacao": 13.538461538461538
     },
-    {
+    "305": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -84379,7 +84379,7 @@
         "id": 305,
         "desempenho_programacao": 14.666666666666666
     },
-    {
+    "306": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -84487,7 +84487,7 @@
         "id": 306,
         "desempenho_programacao": 10.0
     },
-    {
+    "307": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -84656,7 +84656,7 @@
         "id": 307,
         "desempenho_programacao": 11.714285714285714
     },
-    {
+    "308": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -84840,7 +84840,7 @@
         "id": 308,
         "desempenho_programacao": 5.6
     },
-    {
+    "309": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -85025,7 +85025,7 @@
         "id": 309,
         "desempenho_programacao": 12.0
     },
-    {
+    "310": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -85452,7 +85452,7 @@
         "id": 310,
         "desempenho_programacao": 14.125
     },
-    {
+    "311": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -85867,7 +85867,7 @@
         "id": 311,
         "desempenho_programacao": 12.5
     },
-    {
+    "312": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -86315,7 +86315,7 @@
         "id": 312,
         "desempenho_programacao": 12.0
     },
-    {
+    "313": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -86441,7 +86441,7 @@
         "id": 313,
         "desempenho_programacao": 8.0
     },
-    {
+    "314": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -86614,7 +86614,7 @@
         "id": 314,
         "desempenho_programacao": 8.0
     },
-    {
+    "315": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -87023,7 +87023,7 @@
         "id": 315,
         "desempenho_programacao": 15.571428571428571
     },
-    {
+    "316": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -87498,7 +87498,7 @@
         "id": 316,
         "desempenho_programacao": 13.75
     },
-    {
+    "317": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -87879,7 +87879,7 @@
         "id": 317,
         "desempenho_programacao": 17.263157894736842
     },
-    {
+    "318": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -87960,7 +87960,7 @@
         "id": 318,
         "desempenho_programacao": 0
     },
-    {
+    "319": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -88142,7 +88142,7 @@
         "id": 319,
         "desempenho_programacao": 7.6
     },
-    {
+    "320": {
         "num_disciplinas_programacao": 22,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -88635,7 +88635,7 @@
         "id": 320,
         "desempenho_programacao": 13.444444444444445
     },
-    {
+    "321": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -89091,7 +89091,7 @@
         "id": 321,
         "desempenho_programacao": 11.0
     },
-    {
+    "322": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -89255,7 +89255,7 @@
         "id": 322,
         "desempenho_programacao": 6.0
     },
-    {
+    "323": {
         "num_disciplinas_programacao": 21,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -89673,7 +89673,7 @@
         "id": 323,
         "desempenho_programacao": 12.0
     },
-    {
+    "324": {
         "num_disciplinas_programacao": 21,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -90104,7 +90104,7 @@
         "id": 324,
         "desempenho_programacao": 16.555555555555557
     },
-    {
+    "325": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -90235,7 +90235,7 @@
         "id": 325,
         "desempenho_programacao": 8.0
     },
-    {
+    "326": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -90706,7 +90706,7 @@
         "id": 326,
         "desempenho_programacao": 16.0
     },
-    {
+    "327": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -90903,7 +90903,7 @@
         "id": 327,
         "desempenho_programacao": 4.0
     },
-    {
+    "328": {
         "num_disciplinas_programacao": 7,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -91151,7 +91151,7 @@
         "id": 328,
         "desempenho_programacao": 12.8
     },
-    {
+    "329": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -91291,7 +91291,7 @@
         "id": 329,
         "desempenho_programacao": 4.0
     },
-    {
+    "330": {
         "num_disciplinas_programacao": 20,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -91665,7 +91665,7 @@
         "id": 330,
         "desempenho_programacao": 15.866666666666667
     },
-    {
+    "331": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -92167,7 +92167,7 @@
         "id": 331,
         "desempenho_programacao": 11.2
     },
-    {
+    "332": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -92589,7 +92589,7 @@
         "id": 332,
         "desempenho_programacao": 13.6
     },
-    {
+    "333": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -92829,7 +92829,7 @@
         "id": 333,
         "desempenho_programacao": 9.142857142857142
     },
-    {
+    "334": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -93031,7 +93031,7 @@
         "id": 334,
         "desempenho_programacao": 11.555555555555555
     },
-    {
+    "335": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -93399,7 +93399,7 @@
         "id": 335,
         "desempenho_programacao": 16.615384615384617
     },
-    {
+    "336": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -93581,7 +93581,7 @@
         "id": 336,
         "desempenho_programacao": 14.0
     },
-    {
+    "337": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -93802,7 +93802,7 @@
         "id": 337,
         "desempenho_programacao": 4.4
     },
-    {
+    "338": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -94018,7 +94018,7 @@
         "id": 338,
         "desempenho_programacao": 11.555555555555555
     },
-    {
+    "339": {
         "num_disciplinas_programacao": 9,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -94346,7 +94346,7 @@
         "id": 339,
         "desempenho_programacao": 9.333333333333334
     },
-    {
+    "340": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -94491,7 +94491,7 @@
         "id": 340,
         "desempenho_programacao": 8.0
     },
-    {
+    "341": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -94833,7 +94833,7 @@
         "id": 341,
         "desempenho_programacao": 11.333333333333334
     },
-    {
+    "342": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -95048,7 +95048,7 @@
         "id": 342,
         "desempenho_programacao": 8.0
     },
-    {
+    "343": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -95237,7 +95237,7 @@
         "id": 343,
         "desempenho_programacao": 2.6666666666666665
     },
-    {
+    "344": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -95685,7 +95685,7 @@
         "id": 344,
         "desempenho_programacao": 12.0
     },
-    {
+    "345": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -96082,7 +96082,7 @@
         "id": 345,
         "desempenho_programacao": 18.285714285714285
     },
-    {
+    "346": {
         "num_disciplinas_programacao": 22,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -96533,7 +96533,7 @@
         "id": 346,
         "desempenho_programacao": 12.1
     },
-    {
+    "347": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -96684,7 +96684,7 @@
         "id": 347,
         "desempenho_programacao": 12.0
     },
-    {
+    "348": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -97100,7 +97100,7 @@
         "id": 348,
         "desempenho_programacao": 13.866666666666667
     },
-    {
+    "349": {
         "num_disciplinas_programacao": 14,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -97549,7 +97549,7 @@
         "id": 349,
         "desempenho_programacao": 10.76923076923077
     },
-    {
+    "350": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -97728,7 +97728,7 @@
         "id": 350,
         "desempenho_programacao": 5.333333333333333
     },
-    {
+    "351": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -97853,7 +97853,7 @@
         "id": 351,
         "desempenho_programacao": 8.0
     },
-    {
+    "352": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -97971,7 +97971,7 @@
         "id": 352,
         "desempenho_programacao": 8.0
     },
-    {
+    "353": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -98175,7 +98175,7 @@
         "id": 353,
         "desempenho_programacao": 8.0
     },
-    {
+    "354": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -98337,7 +98337,7 @@
         "id": 354,
         "desempenho_programacao": 10.666666666666666
     },
-    {
+    "355": {
         "num_disciplinas_programacao": 17,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -98771,7 +98771,7 @@
         "id": 355,
         "desempenho_programacao": 14.133333333333333
     },
-    {
+    "356": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -99143,7 +99143,7 @@
         "id": 356,
         "desempenho_programacao": 18.666666666666668
     },
-    {
+    "357": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -99304,7 +99304,7 @@
         "id": 357,
         "desempenho_programacao": 8.0
     },
-    {
+    "358": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -99478,7 +99478,7 @@
         "id": 358,
         "desempenho_programacao": 12.0
     },
-    {
+    "359": {
         "num_disciplinas_programacao": 18,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -99854,7 +99854,7 @@
         "id": 359,
         "desempenho_programacao": 14.666666666666666
     },
-    {
+    "360": {
         "num_disciplinas_programacao": 1,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -99989,7 +99989,7 @@
         "id": 360,
         "desempenho_programacao": 12.0
     },
-    {
+    "361": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -100221,7 +100221,7 @@
         "id": 361,
         "desempenho_programacao": 7.0
     },
-    {
+    "362": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -100668,7 +100668,7 @@
         "id": 362,
         "desempenho_programacao": 9.176470588235293
     },
-    {
+    "363": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -101030,7 +101030,7 @@
         "id": 363,
         "desempenho_programacao": 17.846153846153847
     },
-    {
+    "364": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -101461,7 +101461,7 @@
         "id": 364,
         "desempenho_programacao": 13.142857142857142
     },
-    {
+    "365": {
         "num_disciplinas_programacao": 10,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -101741,7 +101741,7 @@
         "id": 365,
         "desempenho_programacao": 12.8
     },
-    {
+    "366": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -102155,7 +102155,7 @@
         "id": 366,
         "desempenho_programacao": 12.533333333333333
     },
-    {
+    "367": {
         "num_disciplinas_programacao": 25,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -102598,7 +102598,7 @@
         "id": 367,
         "desempenho_programacao": 12.88888888888889
     },
-    {
+    "368": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -102871,7 +102871,7 @@
         "id": 368,
         "desempenho_programacao": 10.545454545454545
     },
-    {
+    "369": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -103344,7 +103344,7 @@
         "id": 369,
         "desempenho_programacao": 12.0
     },
-    {
+    "370": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -103750,7 +103750,7 @@
         "id": 370,
         "desempenho_programacao": 12.666666666666666
     },
-    {
+    "371": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -103880,7 +103880,7 @@
         "id": 371,
         "desempenho_programacao": 4.0
     },
-    {
+    "372": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -104240,7 +104240,7 @@
         "id": 372,
         "desempenho_programacao": 6.75
     },
-    {
+    "373": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -104602,7 +104602,7 @@
         "id": 373,
         "desempenho_programacao": 12.0
     },
-    {
+    "374": {
         "num_disciplinas_programacao": 2,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -104847,7 +104847,7 @@
         "id": 374,
         "desempenho_programacao": 12.0
     },
-    {
+    "375": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -105214,7 +105214,7 @@
         "id": 375,
         "desempenho_programacao": 16.0
     },
-    {
+    "376": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -105627,7 +105627,7 @@
         "id": 376,
         "desempenho_programacao": 15.333333333333334
     },
-    {
+    "377": {
         "num_disciplinas_programacao": 6,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -105841,7 +105841,7 @@
         "id": 377,
         "desempenho_programacao": 7.2
     },
-    {
+    "378": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -106301,7 +106301,7 @@
         "id": 378,
         "desempenho_programacao": 12.76923076923077
     },
-    {
+    "379": {
         "num_disciplinas_programacao": 11,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -106572,7 +106572,7 @@
         "id": 379,
         "desempenho_programacao": 5.6
     },
-    {
+    "380": {
         "num_disciplinas_programacao": 3,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -106760,7 +106760,7 @@
         "id": 380,
         "desempenho_programacao": 6.666666666666667
     },
-    {
+    "381": {
         "num_disciplinas_programacao": 5,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -106955,7 +106955,7 @@
         "id": 381,
         "desempenho_programacao": 8.0
     },
-    {
+    "382": {
         "num_disciplinas_programacao": 13,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -107399,7 +107399,7 @@
         "id": 382,
         "desempenho_programacao": 13.0
     },
-    {
+    "383": {
         "num_disciplinas_programacao": 16,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -107798,7 +107798,7 @@
         "id": 383,
         "desempenho_programacao": 12.8
     },
-    {
+    "384": {
         "num_disciplinas_programacao": 15,
         "periodo_ingresso": "2",
         "ejudge": true,
@@ -108196,7 +108196,7 @@
         "id": 384,
         "desempenho_programacao": 19.142857142857142
     },
-    {
+    "385": {
         "num_disciplinas_programacao": 12,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -108497,7 +108497,7 @@
         "id": 385,
         "desempenho_programacao": 15.666666666666666
     },
-    {
+    "386": {
         "num_disciplinas_programacao": 19,
         "periodo_ingresso": "1",
         "ejudge": true,
@@ -108886,7 +108886,7 @@
         "id": 386,
         "desempenho_programacao": 16.8
     },
-    {
+    "387": {
         "num_disciplinas_programacao": 4,
         "periodo_ingresso": "1",
         "ejudge": false,
@@ -109038,7 +109038,7 @@
         "id": 387,
         "desempenho_programacao": 10.0
     },
-    {
+    "388": {
         "num_disciplinas_programacao": 8,
         "periodo_ingresso": "2",
         "ejudge": false,
@@ -109294,4 +109294,4 @@
         "id": 388,
         "desempenho_programacao": 9.142857142857142
     }
-]
+}

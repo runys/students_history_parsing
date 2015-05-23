@@ -7,6 +7,62 @@ from sets import Set
 mencoes_legenda = Set(['SR','II','MI','MM','MS','SS','TR','CC','AP','DP','TJ'])
 creditos_legenda = Set(['000','002','003','004','005','006','008','014','015','020'])
 
+# Pesos de cada menção no calculo do rendimento do aluno
+pesos = {
+    'SR':  0,
+    'II':  1,
+    'MI':  2,
+    'MM':  3,
+    'MS':  4,
+    'SS':  5,
+    'TR': -1,
+    'CC': -1,
+    'AP': -1,
+    'DP': -1,
+    'TJ': -1
+}
+
+# Codigo das disciplinas de programação do curso
+disciplinasProgramacao = Set([
+        "113913",
+        "116301",
+        "195405",
+        "206199",
+        "110141",
+        "195413",
+        "206601",
+        "101095",
+        "208507",
+        "103209",
+        "201286",
+        "206181",
+        "195341",
+        "193704",
+        "203904",
+        "107409",
+        "107417",
+        "206598",
+        "193640",
+        "201294",
+        "208493",
+        "103195",
+        "117552",
+        "203882",
+        "208701"
+    ])
+
+# Turmas que usaram eJudge como auxilio a metodologia de ensino
+disciplinas_ejudge = [
+    {"codigo":"193704","ano":"2012","periodo":"2"},
+    {"codigo":"193704","ano":"2013","periodo":"1"},
+    {"codigo":"208493","ano":"2012","periodo":"2"},
+    {"codigo":"208493","ano":"2013","periodo":"1"},
+    {"codigo":"208493","ano":"2013","periodo":"2"},
+    {"codigo":"103195","ano":"2013","periodo":"1"},
+    {"codigo":"103195","ano":"2013","periodo":"2"},
+    {"codigo":"103195","ano":"2014","periodo":"1"},
+    {"codigo":"103195","ano":"2014","periodo":"2"}
+]
 # Métodos auxiliares
 ### Confere se é ou não um código de disciplina
 def isCodigoDeDisciplina (codigo):
@@ -19,6 +75,97 @@ def isMencao (mencao):
 ### Confere se é um número de créditos
 def isCredito (credito):
     return credito in creditos_legenda
+
+### Calcula o Indice de rendimento de um aluno
+def calcularIRA(aluno):
+    ira = 0.0
+    num_disciplinas = 0
+    for semestre in aluno["historico"]:
+        for disciplina in semestre["disciplinas"]:
+            if pesos[disciplina["mencao"]] != -1:
+                ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
+                num_disciplinas += 1
+            
+    return ira / num_disciplinas
+
+### Calcula o desempenho de um aluno com base nas disciplinas passadas por parâmetro
+def calcularIRASeletivo(aluno,disciplinas):
+    ira = 0.0
+    num_disciplinas = 0
+    for semestre in aluno["historico"]:
+        for disciplina in semestre["disciplinas"]:
+            if pesos[disciplina["mencao"]] != -1 and disciplina["codigo"] in disciplinas:
+                ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
+                num_disciplinas += 1
+    if num_disciplinas == 0:
+        return 0
+    
+    return ira / num_disciplinas
+
+### Calcula o desempenho do aluno antes dele fazer uma materia com ejudge
+def calcularIRAAntesEjudge(aluno):    
+    ira = 0.0
+    num_disciplinas = 0
+    turma = aluno["ejudge_turma"]
+    for semestre in aluno["historico"]:
+        if semestre["ano"] != turma["ano"] and semestre["periodo"] != turma["periodo"]:
+            for disciplina in semestre["disciplinas"]:
+                if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
+                    ira += pesos[disciplina["mencao"]] # * int(disciplina["credito"])
+                    num_disciplinas += 1
+    if num_disciplinas == 0:
+        return 0.0
+    return ira / num_disciplinas
+
+### Calcula o desempenho do aluno depois dele fazer uma materia com ejudge
+def calcularIRADepoisEjudge(aluno):
+    ira = 0.0
+    num_disciplinas = 0
+    turma = aluno["ejudge_turma"]
+    for semestre in aluno["historico"]:
+        if semestre["ano"] >= turma["ano"] and semestre["periodo"] >= turma["periodo"]:
+            for disciplina in semestre["disciplinas"]:
+                if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
+                    ira += pesos[disciplina["mencao"]]# * int(disciplina["credito"])
+                    num_disciplinas += 1
+    
+    return ira / num_disciplinas
+
+### Conta quantas matérias com os códigos passados um aluno já fez, com repetições
+def contMaterias(aluno, codigos):
+    cont = 0
+    
+    for semestre in aluno["historico"]:
+        for disciplina in semestre["disciplinas"]:
+            if disciplina["codigo"] in codigos:
+                cont += 1
+    
+    return cont
+
+### Aluno cursou nas turmas?
+def isTurma(aluno, disciplinas):
+    for semestre in aluno["historico"]:
+        for disciplina in semestre["disciplinas"]:
+            for e in disciplinas:
+                if e["ano"] == semestre["ano"] and e["periodo"] == semestre["periodo"]:
+                    if e["codigo"] == disciplina["codigo"]:
+                        return True
+    
+    return False
+
+### Semestre ejudge
+def getTurmaEjudge(aluno, disciplinas):
+    for semestre in aluno["historico"]:
+        for disciplina in semestre["disciplinas"]:
+            for e in disciplinas:
+                if e["ano"] == semestre["ano"] and e["periodo"] == semestre["periodo"]:
+                    if e["codigo"] == disciplina["codigo"]:
+                        return {
+                            "ano": e["ano"],
+                            "periodo": e["periodo"],
+                            "codigo": disciplina["codigo"]
+                        }
+
 
 ####### Processamento dos Arquivos #######
 # Array para armazenar todos os alunos
@@ -146,7 +293,30 @@ for i in range(257):
         historico.append(semestre)
 
     aluno['historico'] = historico
-
+    
+    #IRA
+    aluno["desempenho"] = calcularIRA(aluno)
+    
+    #IRA Prog
+    aluno["desempenho_programacao"] = calcularIRASeletivo(aluno, disciplinasProgramacao)
+    
+    #Quantidade de Materias de Programação
+    aluno["num_disciplinas_programacao"] = contMaterias(aluno, disciplinasProgramacao)
+    
+    #Fez matéria com juiz eletrônico?
+    if isTurma(aluno, disciplinas_ejudge):
+        aluno["ejudge"] = True
+        #Qual semestre que usou ejudge?
+        aluno["ejudge_turma"] = getTurmaEjudge(aluno, disciplinas_ejudge)
+        
+        #IRA Antes do ejudge
+        aluno["desempenho_antes_ejudge"] = calcularIRAAntesEjudge(aluno)
+        #IRA depois do ejduge
+        aluno["desempenho_depois_ejudge"] = calcularIRADepoisEjudge(aluno)
+        
+    else:
+        aluno["ejudge"] = False
+        
     # Adiciona o aluno na lista de alunos
     alunos.append(aluno)
 
@@ -275,6 +445,30 @@ for i in range(131):
 
     aluno['historico'] = historico
 
+    #IRA
+    aluno["desempenho"] = calcularIRA(aluno)
+    
+    #IRA Prog
+    aluno["desempenho_programacao"] = calcularIRASeletivo(aluno, disciplinasProgramacao)
+    
+    #Quantidade de Materias de Programação
+    aluno["num_disciplinas_programacao"] = contMaterias(aluno, disciplinasProgramacao)
+    
+    #Fez matéria com juiz eletrônico?
+    if isTurma(aluno, disciplinas_ejudge):
+        aluno["ejudge"] = True
+        #Qual semestre que usou ejudge?
+        aluno["ejudge_turma"] = getTurmaEjudge(aluno, disciplinas_ejudge)
+        
+        #IRA Antes do ejudge
+        aluno["desempenho_antes_ejudge"] = calcularIRAAntesEjudge(aluno)
+        #IRA depois do ejduge
+        aluno["desempenho_depois_ejudge"] = calcularIRADepoisEjudge(aluno)
+        
+    else:
+        aluno["ejudge"] = False
+        
+    
     # Adiciona o aluno na lista de alunos
     alunos.append(aluno)
 print 'Dados lidos com sucesso!'
@@ -284,4 +478,14 @@ print 'Criando JSON com historicos dos alunos'
 historicos = open('./json/historicos.json','w')
 historicos.write(json.dumps(alunos, sort_keys=False, indent=4, separators=(',',': ')))
 
+# INDEXADO
+db_indexado = {}
+
+for aluno in alunos:
+    db_indexado[aluno["id"]] = aluno
+
+# Cria o JSON indexado com os alunos
+print 'Criando JSON com historicos dos alunos indexado'
+historicos_indexado = open('./json/historicos_indexado.json','w')
+historicos_indexado.write(json.dumps(db_indexado, sort_keys=False, indent=4, separators=(',',': ')))
 
