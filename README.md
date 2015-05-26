@@ -4,7 +4,7 @@ That is an study on the performance of software engineering students around the 
 
 The Database
 ------------
-Tha database was built using the students histories provided by the institution where the study was made.
+The database was built using the students histories provided by the institution where the study was made.
 
 The extraction of the data from those pdfs were made with the following steps:
 
@@ -13,9 +13,10 @@ The extraction of the data from those pdfs were made with the following steps:
 3. Erasing the names and all the personal information from the students histories.
 4. Processing the data using python scripts and creating JSON files.
 
-The data vizualization
+The data visualization
 ----------------------
-To vizualize the data using charts and other visual resources we are using [Chart.js][2] and [AngularJS][3]. To make everything beautiful I thank [MaterializeCSS][4].
+To visualize the data using charts and other visual resources we are using [Chart.js][2] and [AngularJS][3]. Thanks to [MaterializeCSS][4], everything is beautiful.
+
 To get everything running follow these steps:
 
 1. Make sure you have **NodeJS** installed.
