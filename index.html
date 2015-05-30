@@ -1,23 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="StudentPerformanceApp">
+
 <head>
     <meta charset="UTF-8">
     <title>Student Performance</title>
-    
+
     <link rel="stylesheet" href="libs/materialize/dist/css/materialize.min.css">
     <link rel="stylesheet" href="libs/fontawesome/css/font-awesome.min.css">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
-    
+
+    <link rel="stylesheet" href="app.css">
 </head>
-<body>
-    
-    <h1>Student Performance</h1>
-    
+
+<body class="teal container">
+
+    <div class="card white">
+        <!-- Title -->
+        <div class="row title">
+            <h4 class="center-align">Análise de Desempenho de Estudantes</h4>
+        </div>
+
+        <!-- Navigation -->
+        <div class="row navigation">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3 "><a href="#home" class="black-text">Home</a>
+                    </li>
+                    <li class="tab col s3 "><a href="#students" class="black-text">Alunos</a>
+                    </li>
+                    <li class="tab col s3 "><a href="#classes" class="black-text">Turmas</a>
+                    </li>
+                    <li class="tab col s3 "><a href="#about" class="black-text">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+
+            <div id="home" class="row" ng-controller="HomeController">
+                <div class="col s12">
+                    {{ title }}
+                </div>
+            </div>
+
+            <div id="students" class="row" ng-controller="StudentsController">
+                <div class="divider"></div>
+                <!-- INDICADORES -->
+                <div id="indicadores" class="section">
+                    <h3>Indicadores</h3>
+                    <div class="row">
+                        <div class="col s3 offset-s4 card-panel teal white-text">
+                            <p class="right indicador">{{ num_students }} alunos</p>
+                            <p class="left">Número de alunos</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s5 card-panel blue white-text">
+                            <p class="right indicador">{{ max_student_performance }}</p>
+                            <p class="left">Maior Desempenho</p>
+                        </div>
+                        <div class="col s5 card-panel red white-text">
+                            <p class="right indicador">{{ min_student_performance }}</p>
+                            <p class="left">Menor Desempenho </p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+
+                        <div class="col s5 card-panel  blue white-text">
+                            <p class="right indicador">{{ max_student_performance_prog }}</p>
+                            <p class="left">Maior Desempenho em Programação</p>
+                        </div>
+                        <div class="col s5 card-panel red white-text">
+                            <p class="right indicador">{{ min_student_performance_prog }}</p>
+                            <p class="left">Menor Desempenho em Programação</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s5 card-panel teal white-text">
+                            <p class="right indicador">{{ mean_student_performance }}</p>
+                            <p class="left">Média de Desempenho dos Alunos
+                            </p>
+                        </div>
+                        <div class="col s5 card-panel teal white-text">
+                            <p class="right indicador">{{ mean_student_performance_prog }}</p>
+                            <p class="left">Média de Desempenho em Matérias de Programação </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="divider"></div>
+                <!-- RANKINGS -->
+                <div class="section">
+
+                    <h4 class="center-align">25 Melhores Alunos</h4>
+                    <div class="">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="">ID</th>
+                                    <th class="center-align">Performance</th>
+                                    <th class="center-align">Performance Programação</th>
+                                    <th class="center-align">Performance Pré-eJudge</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr ng-repeat="student in students | orderBy: '-desempenho' | limitTo: 10">
+                                    <!--                                <tr ng-repeat="student in students | filter: {ejudge: true} | orderBy: '-desempenho' | limitTo: 25">-->
+                                    <td>{{ student.id }}</td>
+                                    <td class="center-align">{{ student.desempenho.toFixed(2) }}</td>
+                                    <td class="center-align">{{ student.desempenho_programacao.toFixed(2) }}</td>
+                                    <td class="center-align">{{ student.desempenho_antes_ejudge.toFixed(2) }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+                <!--  -->
+                <div class="divider"></div>
+                <div class="section"></div>
+            </div>
+
+            <div id="classes" class="row" ng-controller="ClassesController">
+                <div class="col s12">
+                    {{ title }}
+                </div>
+            </div>
+
+            <div id="about" class="row" ng-controller="AboutController">
+                <div class="col s12">
+                    {{ title }}
+                </div>
+            </div>
+
+        </div>
+        <footer></footer>
+
+    </div>
+
+
+
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="libs/materialize/dist/js/materialize.js"></script>
-    
+
     <script src="libs/angular/angular.js"></script>
-    
+
+    <script src="app.js"></script>
+
 </body>
+
 </html>

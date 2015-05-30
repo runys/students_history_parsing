@@ -1,0 +1,25 @@
+/* Cor da barra de seleção do tab bar*/
+
+.tabs .indicator {
+    background-color: black;
+}
+
+.title {
+    padding-top: 1rem;
+}
+
+.content,
+.navigation {
+    padding: 1rem 2rem;
+}
+
+#indicadores > .row > .card-panel,
+#indicadores > .row > .card {
+    min-height: 9rem;
+    margin: 1rem;
+}
+
+.indicador {
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+}
