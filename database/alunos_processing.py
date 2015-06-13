@@ -45,7 +45,7 @@ for aluno in alunos_ejudge:
         num_aluno_manteve += 1
         alunos_mantiveram.append(aluno["id"])
 
-#print '+',num_aluno_melhorou,'\n-', num_aluno_piorou,'\n=', num_aluno_manteve
+print '+',num_aluno_melhorou,'\n-', num_aluno_piorou,'\n=', num_aluno_manteve
 
 data["num_aluno_melhorou"] = num_aluno_melhorou
 data["alunos_melhoraram"] = alunos_melhoraram 

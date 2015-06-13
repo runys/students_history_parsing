@@ -50,48 +50,50 @@
                 <div class="divider"></div>
                 <!-- INDICADORES -->
                 <div id="indicadores" class="section">
-                    <h3>Indicadores</h3>
+                    <h4>Indicadores</h4>
                     <div class="row">
                         <div class="col s3 offset-s4 card-panel teal white-text">
-                            <p class="right indicador">{{ num_students }} alunos</p>
-                            <p class="left">Número de alunos</p>
+                            <p class="center indicador">{{ num_students }}</p>
+                            <p class="center">Número de alunos</p>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col s5 card-panel blue white-text">
-                            <p class="right indicador">{{ max_student_performance }}</p>
-                            <p class="left">Maior Desempenho</p>
+                            <p class="center indicador">{{ max_student_performance }}</p>
+                            <p class="center">Maior Desempenho</p>
                         </div>
                         <div class="col s5 card-panel red white-text">
-                            <p class="right indicador">{{ min_student_performance }}</p>
-                            <p class="left">Menor Desempenho </p>
+                            <p class="center indicador">{{ min_student_performance }}</p>
+                            <p class="center">Menor Desempenho </p>
                         </div>
 
                     </div>
-                    <div class="row">
 
+                    <div class="row">
 
                         <div class="col s5 card-panel  blue white-text">
-                            <p class="right indicador">{{ max_student_performance_prog }}</p>
-                            <p class="left">Maior Desempenho em Programação</p>
+                            <p class="center indicador">{{ max_student_performance_prog }}</p>
+                            <p class="center">Maior Desempenho em Programação</p>
                         </div>
                         <div class="col s5 card-panel red white-text">
-                            <p class="right indicador">{{ min_student_performance_prog }}</p>
-                            <p class="left">Menor Desempenho em Programação</p>
+                            <p class="center indicador">{{ min_student_performance_prog }}</p>
+                            <p class="center">Menor Desempenho em Programação</p>
                         </div>
                     </div>
 
                     <div class="row">
+
                         <div class="col s5 card-panel teal white-text">
-                            <p class="right indicador">{{ mean_student_performance }}</p>
-                            <p class="left">Média de Desempenho dos Alunos
+                            <p class="center indicador">{{ mean_student_performance }}</p>
+                            <p class="center">Média de Desempenho dos Alunos
                             </p>
                         </div>
                         <div class="col s5 card-panel teal white-text">
-                            <p class="right indicador">{{ mean_student_performance_prog }}</p>
-                            <p class="left">Média de Desempenho em Matérias de Programação </p>
+                            <p class="center indicador">{{ mean_student_performance_prog }}</p>
+                            <p class="center">Média de Desempenho em Matérias de Programação </p>
                         </div>
+
                     </div>
 
                 </div>
@@ -104,21 +106,27 @@
                     <div class="">
                         <table>
                             <thead>
-                                <tr>
+                                <tr class="grey lighten-4">
                                     <th class="">ID</th>
                                     <th class="center-align">Performance</th>
-                                    <th class="center-align">Performance Programação</th>
-                                    <th class="center-align">Performance Pré-eJudge</th>
+                                    <th class="center-align">Performance
+                                        <br>Programação</th>
+                                    <th class="center-align">Performance
+                                        <br>Pré-eJudge</th>
+                                    <th class="center-align">Diferença</th>
+                                    <th class="center-align">Diferença(%)</th>
                                 </tr>
                             </thead>
 
                             <tbody>
-                                <tr ng-repeat="student in students | orderBy: '-desempenho' | limitTo: 10">
-                                    <!--                                <tr ng-repeat="student in students | filter: {ejudge: true} | orderBy: '-desempenho' | limitTo: 25">-->
+                                <!--                                <tr ng-repeat="student in students | orderBy: 'desempenho' | limitTo: 10">-->
+                                <tr ng-repeat="student in students | filter: {ejudge: true} | orderBy: '-desempenho' | limitTo: 25">
                                     <td>{{ student.id }}</td>
                                     <td class="center-align">{{ student.desempenho.toFixed(2) }}</td>
                                     <td class="center-align">{{ student.desempenho_programacao.toFixed(2) }}</td>
                                     <td class="center-align">{{ student.desempenho_antes_ejudge.toFixed(2) }}</td>
+                                    <td class="center-align">{{ (student.desempenho - student.desempenho_antes_ejudge).toFixed(2) }}</td>
+                                    <td class="center-align">{{ (((student.desempenho - student.desempenho_antes_ejudge)/student.desempenho)*100).toFixed(2) + '%' }}</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -133,7 +141,43 @@
 
             <div id="classes" class="row" ng-controller="ClassesController">
                 <div class="col s12">
-                    {{ title }}
+                    <div class="divider"></div>
+
+                    <div id="turmas_ejudge" class="section">
+
+                        <h4 class="center-align">Turmas com eJudge</h4>
+
+                        <div class="row">
+                            <div class="col s5">
+                                <ul>
+                                    <li ng-repeat="disciplina in disciplinas_ejudge">
+                                        <a ng-click="trocarTurma(disciplina.codigo+'_'+disciplina.ano+'_'+disciplina.periodo)">{{ disciplina.ano + '/' + disciplina.periodo + ' ' + getNomeTurma(disciplina.codigo)}}</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="col s7">
+                                <h6>{{ chartTitle }}</h6>
+
+                                <canvas id="turmaChart" width="400" height="400"></canvas>
+
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="switch">
+                                            <label>
+                                                Histograma
+                                                <input type="checkbox" ng-model="isDesempenho" ng-click="desenharGrafico()">
+                                                <span class="lever"></span> Desempenhos
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -152,6 +196,7 @@
 
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="libs/materialize/dist/js/materialize.js"></script>
+    <script src="libs/Chart.js/Chart.min.js"></script>
 
     <script src="libs/angular/angular.js"></script>
 

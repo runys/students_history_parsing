@@ -84,7 +84,7 @@ def calcularIRA(aluno):
         for disciplina in semestre["disciplinas"]:
             if pesos[disciplina["mencao"]] != -1:
                 ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
-                num_disciplinas += 1
+                num_disciplinas += int(disciplina["credito"])
             
     return ira / num_disciplinas
 
@@ -96,7 +96,7 @@ def calcularIRASeletivo(aluno,disciplinas):
         for disciplina in semestre["disciplinas"]:
             if pesos[disciplina["mencao"]] != -1 and disciplina["codigo"] in disciplinas:
                 ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
-                num_disciplinas += 1
+                num_disciplinas += int(disciplina["credito"])
     if num_disciplinas == 0:
         return 0
     
@@ -113,7 +113,7 @@ def calcularIRAAntesEjudge(aluno):
 #                if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
                 if pesos[disciplina["mencao"]] != -1:
                     ira += pesos[disciplina["mencao"]]  * int(disciplina["credito"])
-                    num_disciplinas += 1
+                    num_disciplinas += int(disciplina["credito"])
     if num_disciplinas == 0:
         return 0.0
     return ira / num_disciplinas
@@ -128,7 +128,7 @@ def calcularIRADepoisEjudge(aluno):
             for disciplina in semestre["disciplinas"]:
                 if disciplina["codigo"] in disciplinasProgramacao and pesos[disciplina["mencao"]] != -1:
                     ira += pesos[disciplina["mencao"]] * int(disciplina["credito"])
-                    num_disciplinas += 1
+                    num_disciplinas += int(disciplina["credito"])
     
     return ira / num_disciplinas
 
